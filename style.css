@@ -346,7 +346,7 @@ body{
 }
 
     #logo{
-    width: 330px;
+    width: 550px;
     height: 40px;
     
 }
@@ -501,6 +501,11 @@ text-align: center;
     width: 70px;
    margin: 0 auto;
    margin-top: 40px;
+}
+
+#img3{
+
+    margin-left: 190px;
 }
 
 }
