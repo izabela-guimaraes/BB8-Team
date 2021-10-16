@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/Logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="div-center">
+        <img src="./img/Logo.svg" alt="logo">
+        <h1>Register</h1>
+        <br><br>
+        <input type="name" placeholder="Name" class="inputs"> <br><br>
+        <input type="email" placeholder="Email" class="inputs"> <br><br>
+        <input type="password" placeholder="Password" class="inputs"> <br><br>
+        <input type="password" placeholder="Confirm password" class="inputs"> <br><br>
+
+        <li>
+            <input type="checkbox">
+            <label for="">I accept the <a>Terms of Use</a></label>
+        </li>
+        <br>
+        <button type="submit">Register</button> <br><br>
+        <p>Already have an account? <a href="./login.html">  login</a></p> <br><br>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(./img/BG-1.png);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #div-center {
+        display: block;
+        list-style: none;
+        text-align: center;
+        
+
+    }
+
+    img {
+        margin: 40px 0 40px 0;
+    }
+
+    .inputs {
+        background-color: #F7F7F7;
+        outline: none;
+        border: none;
+        width: 250px;
+        height: 30px;
+        padding: 12px 16px 14px;
+        border-radius: 10px;
+
+    }
+
+    button{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        background-color:  #F97D26;
+        border: none;
+        font-size: 15px;
+
+    }
+
+    a{
+      color: #F97D26; 
+      text-decoration: none;
+    }
+
+    @media (prefers-color-scheme: dark){
+
+body{
+    background-image: url(./img/BG.png);
+    background-color: #000000;
+}
+
+h1 , p , label{
+    color: #FFFFFF;
+}
+
+}
+@media (max-width: 990px){ 
+
+    
+    
+button {
+    height: 30px;
+    width: 250px;
+    margin-top: 30px;
+
+
+}
+
+body{
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+
+}
+p , li{
+    font-size: 20px;
+
+}
+li{
+    margin-top: 20px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+img{
+   margin-top: 60px;
+    width: 100px;
+}
+}
+
+</style>
+
+</html>
