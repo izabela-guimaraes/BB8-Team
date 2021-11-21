@@ -11,7 +11,7 @@
 
 <img src="./img/Home.png" alt="Application result" width="300em">
 
-<img src="./img/Home - darkmode.png" alt="Application result " width="300em">
+<img src="./img/home-dark.png" alt="Application result " width="300em">
 
 <br>
 <br>
