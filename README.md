@@ -17,11 +17,11 @@
 <br>
 
 
-<h4><a href="https://izabela-guimaraes.github.io/BB8-Team/" target="blank">click here to see the application working</a></h4>
+<h4><a href="https://izabela-guimaraes.github.io/BB8-Team/" target="blank">Click here to see the application working</a></h4>
 
   <a href="https://www.figma.com/file/a8rWdRAye9JYDTPGLJ9ZbP/BB8-Team---UI-(Copy)-(Copy)?node-id=138%3A2">Figma link</a>
 
-<h4>to see another project click here <a href="https://github.com/izabela-guimaraes/PlayStation-Store" target="blank">click here</a></h4>
+<h4>To see another project click here <a href="https://github.com/izabela-guimaraes/PlayStation-Store" target="blank">click here</a></h4>
 
 🚀 Technologies
 This project was developed with the following technologies:
